@@ -1,9 +1,10 @@
 body{
-  padding: 75px;
+  padding: 50 50px;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
 
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -11,22 +12,28 @@ ul {
     background-color: darkgrey;
 }
 
-li {
+li{
     float: left;
+    display:table;
     height: 100%;
-    width: 16.66%;
+    width: 16.5%;
 }
 
-li a {
+li:last-of-type {
+    width: 17.5%;
+}
+
+li a{
     display: block;
     color: white;
     text-align: center;
     text-decoration: none;
+    display: table-cell; 
+    vertical-align: middle;
     height: 100%;
-    padding-top: 10%;
 }
 
-li a:hover {
+li a:hover{
     background-color: black;
 }
 
@@ -57,6 +64,28 @@ li a:hover {
 #map{
 	height: 50%;
 	background-color: green;
+	overflow: hidden;
+}
+
+#directions{
+	position: relative;
+	left: 25%;
+	bottom: -75%;
+	width: 50%;
+	height: 25%;
+	background-color: white;
+}
+
+#directions:hover{
+    background-color: red;
+}
+
+#descriptions{
+	position: relative;
+	left: 25%;
+	width: 50%;
+	height: 25%;
+	background-color: white;
 }
 
 #image{
