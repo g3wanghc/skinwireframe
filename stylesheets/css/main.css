@@ -1,0 +1,68 @@
+body{
+  padding: 75px;
+  font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+}
+
+li {
+    float: left;
+    height: 100%;
+    width: 16.66%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 100%;
+    padding-top: 10%;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+#logo{
+	height: 10%;
+}
+
+#navbar{
+	height: 10%;
+}
+
+#sidebar{
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+}
+
+#hours{
+	height: 25%;
+	background-color: grey;
+}
+
+#address{
+	height: 25%;
+	background-color: blue;
+}
+
+#map{
+	height: 50%;
+	background-color: green;
+}
+
+#image{
+	float: right;
+	display: inline-block;
+	width: 67%;
+	height: 100%;
+	background-color: orange;
+}
