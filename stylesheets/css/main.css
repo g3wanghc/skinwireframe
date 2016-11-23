@@ -1,44 +1,55 @@
 body{
   padding: 50 50px;
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  display:table-cell; 
+  vertical-align:middle;
+	padding-top: 10px;
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 4px;
+	font-size: 46px;
 }
 
 ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: darkgrey;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: white;
 }
 
 li{
-    float: left;
-    display:table;
-    height: 100%;
-    width: 16.5%;
+  float: left;
+  display:table;
+  height: 100%;
+  width: 16.5%;
 }
 
 li:last-of-type {
-    width: 17.5%;
+  width: 17.5%;
 }
 
 li a{
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: table-cell; 
-    vertical-align: middle;
-    height: 100%;
+  display: table-cell; 
+  vertical-align: middle;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 li a:hover{
-    background-color: black;
+	color: white;
+  background-color: black;
 }
 
 #logo{
-	height: 10%;
+	height: 10.1%;
+	width: 100%;
+	text-align:center; 
+  display:table;
 }
 
 #navbar{
@@ -52,18 +63,26 @@ li a:hover{
 }
 
 #hours{
+	display:table;
 	height: 25%;
-	background-color: grey;
+	width: 100%;
+	background-color: white;
+}
+
+#hours div{
+	display: table-cell; 
+  vertical-align: middle;
+  text-align: center;
 }
 
 #address{
 	height: 25%;
-	background-color: blue;
+	background-color: white;
 }
 
 #map{
 	height: 50%;
-	background-color: green;
+	background-color: white;
 	overflow: hidden;
 }
 
@@ -85,7 +104,16 @@ li a:hover{
 	left: 25%;
 	width: 50%;
 	height: 25%;
-	background-color: white;
+	display:table;
+	background-color: black;
+	opacity: .6;
+}
+
+#descriptions div{
+	display: table-cell;
+	vertical-align: middle;
+  text-align: center;
+  color: white;
 }
 
 #image{
@@ -93,5 +121,7 @@ li a:hover{
 	display: inline-block;
 	width: 67%;
 	height: 100%;
-	background-color: orange;
+  background-image: url("../../assets/img/board_games.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
